@@ -1,0 +1,1 @@
+ Django signals run in the same thread as the caller that triggered the signal. When you connect a signal to a receiver, the receiver function is executed in the context of the thread that emits the signal.
